@@ -73,12 +73,26 @@ h2 {
   padding: 15px 30px;
 }
 
-#featured-projects {
-  margin: 200px 0px;
-}
-
 .project-description {
   padding: 120px 60px;
+}
+
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+}
+
+.about-section-content {
+  margin: 30px;
 }
 
 @media (max-width: 768px) {
@@ -101,5 +115,15 @@ h2 {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 25px 15px;
+  }
+
+  .about-section h1 {
+    font-size: 40px;
+    line-height: 60px;
   }
 }

@@ -1,6 +1,7 @@
 :root {
   --branding-color: #000000;
   --secondary-color: #ff6a80;
+  --accent-color: #ffe9ec;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -102,6 +103,20 @@ h2 {
 
 .content {
   margin: 30px;
+}
+
+.standard-icon {
+  color: var(--secondary-color);
+  font-size: 30px;
+}
+
+.hover-text {
+  transition: all 200ms ease-in-out;
+}
+.hover-text:hover {
+  background: var(--accent-color);
+  border-radius: 4px;
+  padding: 10px 0px;
 }
 
 @media (max-width: 768px) {

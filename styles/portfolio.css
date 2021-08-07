@@ -192,6 +192,11 @@ nav li.active a {
     line-height: 60px;
   }
 
+  .profile-picture {
+    max-height: 350px;
+    margin-left: 0;
+  }
+
   nav li a {
     font-size: 15px;
   }

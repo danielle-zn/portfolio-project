@@ -35,6 +35,34 @@ h2 {
   font-size: 64px;
 }
 
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 50px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #ffff;
+  margin-left: 15px;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+nav li a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
 .hero {
   background: var(--branding-color);
   color: #ffff;
@@ -119,6 +147,14 @@ h2 {
   padding: 10px 0px;
 }
 
+.logo {
+  max-height: 50px;
+}
+
+.navigator-color {
+  background: var(--secondary-color);
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 44px;
@@ -149,5 +185,13 @@ h2 {
   .content h1 {
     font-size: 40px;
     line-height: 60px;
+  }
+
+  nav li a {
+    font-size: 15px;
+  }
+
+  nav {
+    padding: 10px 0;
   }
 }

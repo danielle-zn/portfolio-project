@@ -63,6 +63,10 @@ nav li.active a {
   color: var(--branding-color);
 }
 
+.profile-picture {
+  max-height: 600px;
+}
+
 .hero {
   background: var(--branding-color);
   color: #ffff;

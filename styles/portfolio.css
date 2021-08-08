@@ -64,7 +64,7 @@ nav li.active a {
 }
 
 footer {
-  margin: 150px 0;
+  margin: 130px 0;
 }
 
 .profile-picture {
@@ -246,5 +246,17 @@ footer {
 
   nav {
     padding: 10px 0;
+  }
+
+  footer {
+    margin: 0;
+  }
+
+  footer p {
+    font-size: 13px;
+  }
+
+  .footer-icons a {
+    margin: 25px 20px;
   }
 }

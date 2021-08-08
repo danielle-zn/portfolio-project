@@ -63,6 +63,10 @@ nav li.active a {
   color: var(--branding-color);
 }
 
+footer {
+  margin: 150px 0;
+}
+
 .profile-picture {
   max-height: 600px;
   margin-left: 50px;
@@ -138,7 +142,7 @@ nav li.active a {
   margin: 30px;
 }
 
-.standard-icon {
+.contact-icon {
   color: var(--secondary-color);
   font-size: 30px;
 }
@@ -158,6 +162,45 @@ nav li.active a {
 
 .navigation-color {
   background: var(--secondary-color);
+}
+
+.footer-icons a {
+  color: #fff;
+  background: var(--secondary-color);
+  font-size: 30px;
+  margin: 55px 30px;
+  padding: 10px 18px;
+  border-radius: 50%;
+  transition: all 110ms ease-in-out;
+}
+
+.footer-icons a:hover {
+  color: var(--secondary-color);
+  background: var(--accent-color);
+}
+
+.contact-box {
+  padding: 30px 50px;
+  background-color: var(--accent-color);
+  border-radius: 10px;
+}
+
+.contact-box h4 {
+  font-size: 48px;
+}
+
+.contact-box p {
+  font-size: 18px;
+}
+
+.standard-links {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.standard-links:hover {
+  color: var(--branding-color);
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
